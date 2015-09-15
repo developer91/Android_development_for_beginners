@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#03A9F4">
+
+    <ImageView
+        android:id="@+id/big_boss"
+        android:src="@drawable/big_boss"
+        android:scaleType="center"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/congratulazioni"
+        android:text="Good Luck, Hideo!"
+        android:textSize="24sp"
+        android:textColor="#FF3D00"
+        android:textAllCaps="true"
+        android:padding="20sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/grazie"
+        android:text="Thanks for your games and your creativity..."
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:textColor="#FF7043"
+        android:layout_marginTop="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
